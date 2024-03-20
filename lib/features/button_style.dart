@@ -8,9 +8,7 @@ class TextButtonStyle extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ElevatedButton(
-      onPressed: () {
-        onPressed;
-      },
+      onPressed: onPressed,
       style: ElevatedButton.styleFrom(
         backgroundColor: Colors.amber,
         padding: const EdgeInsets.all(15),
