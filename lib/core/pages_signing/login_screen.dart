@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:insta_app/core/pages/register_screen.dart';
+import 'package:insta_app/core/pages_signing/register_screen.dart';
 import 'package:insta_app/features/button_style.dart';
 import 'package:insta_app/features/text_field_style.dart';
 import 'package:insta_app/firebase/authentication/auth_login.dart';

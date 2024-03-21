@@ -1,8 +1,8 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:insta_app/core/pages/home.dart';
-import 'package:insta_app/core/pages/login_screen.dart';
+import 'package:insta_app/core/pages_signing/login_screen.dart';
+import 'package:insta_app/core/screens/navigation.dart';
 import 'package:insta_app/firebase_options.dart';
 
 Future<void> main() async {
@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
       home: StreamBuilder(
         builder: (context, snapshot) {
           if (snapshot.hasData) {
-            return const HomeScreen();
+            return const BottomNavigationPage();
           } else {
             return const LoginPage();
           }
